@@ -6,7 +6,7 @@
 
 @media (max-width: 1200px) {
     .hero-title {
-        font-size: 68px;
+        font-size: 24px;
     }
 
     .article-text::before {
