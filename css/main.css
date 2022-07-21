@@ -141,11 +141,11 @@ nav a:hover::after {
     display: block;
     content: '';
     position: absolute;
-    left: 0;
+    left: -10px;
     top: 50%;
     transform: translateY(-50%);
-    width: 70px;
-    height: 67px;
+    width: 49px;
+    height: 46px;
     background-image: url(./../img/pictures/01.png);
     background-size: contain;
     mix-blend-mode: multiply;
