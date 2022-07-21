@@ -10,7 +10,7 @@ font-family: 'Montserrat', sans-serif;
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #7C8CA6;
+    background-color: #9ca7ba;
     background-image: url(./../img/bg/Bandle\ for\ Den.png);
     background-size: 100%, auto;
     background-repeat: no-repeat;
@@ -144,8 +144,8 @@ nav a:hover::after {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    width: 77px;
-    height: 74px;
+    width: 70px;
+    height: 67px;
     background-image: url(./../img/pictures/01.png);
     background-size: contain;
     mix-blend-mode: multiply;
@@ -223,8 +223,8 @@ nav a:hover::after {
     width: 320px;
     height: 100%;
     padding: 70px 70px 50px 30px;
-    background-color: #7C8CA6;
-    opacity: 0.8;
+    background-color: #9ca7ba;
+    opacity: 0.9;
 }
 
 .mobile-nav .nav,
