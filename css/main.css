@@ -300,7 +300,7 @@ nav a:hover::after {
     transform: translateY(-50%);
     width: 30px;
     height: 30px;
-    background-image: url(./../img/icons/icons8-purse-30.png);
+    background-image: url(./../);
 }
 
 /* ARTICLE */
