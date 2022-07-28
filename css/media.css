@@ -6,7 +6,7 @@
 
 @media (max-width: 1200px) {
     .hero-title {
-        font-size: 24px;
+        font-size: 12px;
     }
 
     .article-text::before {
@@ -67,11 +67,11 @@
     }
 
     .hero-title {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .hero-category {
-        font-size: 48px;
+        font-size: 24px;
     }
 
     .article-title {
