@@ -503,13 +503,13 @@
 	-webkit-transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
 	transition: background-color 0.1s 0.3s, color 0.1s 0.3s;
 	color: #ECEFF1;
-	background-color: #92A3DF;
+	background-color: #677996;
 	-webkit-animation: anim-moema-1 0.3s forwards;
 	animation: anim-moema-1 0.3s forwards;
 }
 .button--moema.button--inverted:hover {
 	color: #ECEFF1;
-	background-color: #7986cb;
+	background-color: #677996;
 }
 .button--moema:hover::before {
 	-webkit-animation: anim-moema-2 0.3s 0.3s forwards;
