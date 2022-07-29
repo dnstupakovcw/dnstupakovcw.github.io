@@ -1,6 +1,6 @@
 body{
     margin-top: 30px !important;
-    background: linear-gradient(45deg, #92A3DF, #E5E5E5);
+    background: linear-gradient(120deg, #C2E9FB, #A1C4FD);
 }
 h3{
     margin: 0;
@@ -17,7 +17,7 @@ ul{
 .our-team:before{
     content: "";
     position: absolute;
-    border: 4px solid #92A3DF;
+    border: 4px solid #677996;
     bottom: -7px;
     top: -7px;
     left: -7px;
@@ -114,7 +114,7 @@ ul{
     transition:0.3s ease 0s;
 }
 .our-team .social li a:hover{
-    color:#92A3DF;
+    color:#677996;
 }
 .our-team .social li a:after{
     content: "";
@@ -123,7 +123,7 @@ ul{
     right: 0;
     height: 100%;
     width: 1px;
-    background-color: #92A3DF;
+    background-color: #677996;
 }
 .our-team .social li:last-child a:after{
     display: none;
