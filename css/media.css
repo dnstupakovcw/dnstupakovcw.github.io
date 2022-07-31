@@ -25,6 +25,10 @@
         width: 45%;
     }
 
+    .article-img {
+        font-size: 34px;
+    }
+
 }
 
 @media (max-width: 1200px) {

@@ -63,7 +63,7 @@ img {
 
 .header {
     padding-top: 64px;
-    padding-bottom: 843px;
+    padding-bottom: 413px;
 }
 
 .nav-wrapper {
@@ -494,4 +494,101 @@ nav a:hover::after {
 .footer-nav a:hover::after {
     bottom: 0px;
     opacity: 1;
+}
+
+/* COURSE */
+
+.center-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.article-img {
+    margin-bottom: 30px;
+    max-width: 555px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    color: #fff;
+    margin-left: auto;
+    margin-right: 47.5%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.holder {
+    max-width: 1010px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.limited {
+    max-height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.limited.l-200 {
+    max-height: 70px;
+}
+
+.limited.l-300 {
+    max-height: 120px;
+}
+
+.limited .bottom {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0), #A1C4FD 80%);
+    width: 100%;
+    height: 60px;
+    opacity: 1;
+    transition: .3s;
+}
+
+.read-more-checker {
+    opacity: 0;
+    position: absolute;
+}
+
+.read-more-checker:checked ~ .limited {
+    max-height: none;
+}
+
+.read-more-checker:checked ~ .limited .bottom {
+    opacity: 0;
+    transition: .3s;
+}
+
+.read-more-checker ~ .read-more-button:before {
+    content: 'Больше';
+}
+
+.read-more-checker:checked ~ .read-more-button:before {
+    content: 'Меньше';
+}
+
+.read-more-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    color: #677996;
+}
+
+.l-h {
+    line-height: 39px;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400px;
 }
