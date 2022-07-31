@@ -501,13 +501,21 @@ nav a:hover::after {
 .center-img {
     display: block;
     margin: 0 auto;
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+    margin-bottom: 200px;
+>>>>>>> b3644f5d3e755793326e5707fb3cf8b1228af561
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .article-img {
+<<<<<<< HEAD
     margin-bottom: 30px;
+=======
+    margin-bottom: 27px;
+>>>>>>> b3644f5d3e755793326e5707fb3cf8b1228af561
     max-width: 555px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -516,16 +524,26 @@ nav a:hover::after {
     line-height: 1.2;
     color: #fff;
     margin-left: auto;
+<<<<<<< HEAD
     margin-right: 47.5%;
+=======
+    margin-right: 45%;
+>>>>>>> b3644f5d3e755793326e5707fb3cf8b1228af561
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .holder {
+<<<<<<< HEAD
     max-width: 1010px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+=======
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: 45%;
+>>>>>>> b3644f5d3e755793326e5707fb3cf8b1228af561
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -581,6 +599,7 @@ nav a:hover::after {
     display: inline-block;
     padding: 10px;
     color: #677996;
+<<<<<<< HEAD
 }
 
 .l-h {
@@ -591,4 +610,6 @@ nav a:hover::after {
     display: flex;
     justify-content: center;
     margin-bottom: 400px;
+=======
+>>>>>>> b3644f5d3e755793326e5707fb3cf8b1228af561
 }
